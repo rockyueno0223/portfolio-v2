@@ -108,7 +108,7 @@ export const ProjectCard = ({
         anchorY={'top'}
         fontSize={0.08}
         position={[-0.6, -1.1, 0]}
-        onClick={() => window.open(project.url, '_blank')}
+        onClick={() => window.open(project.github, '_blank')}
         onPointerOver={() => {
           document.body.style.cursor = 'pointer';
         }}
