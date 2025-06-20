@@ -87,7 +87,7 @@ export const projects: ProjectType[] = [
       'EmailJS',
     ],
     description: 'This portfolio.',
-    isFeatured: false,
+    isFeatured: true,
   },
   {
     id: 6,
@@ -97,7 +97,7 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/rockyueno0223/stock-chart',
     skills: ['Vue.js'],
     description: 'Website to show stock market price.',
-    isFeatured: false,
+    isFeatured: true,
   },
   {
     id: 7,

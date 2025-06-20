@@ -49,6 +49,19 @@ export const ProjectCard = ({
         />
       </mesh>
 
+      {/* Star icon for featured project */}
+      {project.isFeatured && (
+        <Text
+          position={[0.83, 1.11, 0]}
+          fontSize={0.17}
+          color='#FFEA00'
+          fontWeight='bold'
+          fillOpacity={1}
+        >
+          ★
+        </Text>
+      )}
+
       {/* Thumbnail image */}
       <Image
         scale={[1.8, 1.2]}
