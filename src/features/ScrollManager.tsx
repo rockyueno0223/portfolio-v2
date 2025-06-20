@@ -33,8 +33,9 @@ export const ScrollManager = ({
     });
   }, [currentSection]);
 
-  // Continuously track user scroll via r3f frame loop
+  // Every frame, check the current scroll position and direction
   useFrame(() => {
+    // If animating, don't update section based on scroll
     if (isAnimating.current) {
       lastScroll.current = data.offset;
       return;
@@ -42,16 +43,17 @@ export const ScrollManager = ({
 
     const currSection = Math.floor(data.offset * data.pages);
 
+    // Use a small threshold to avoid float errors
+    const delta = data.offset - lastScroll.current;
+    const threshold = 0.01; // Ignore tiny scroll fluctuations
+
     // Detect scroll down from section 0 -> 1
-    if (data.offset > lastScroll.current && currSection === 0) {
+    if (delta > threshold && currSection === 0) {
       onSectionChange(1);
     }
 
     // Detect scroll up from section 1 -> 0
-    if (
-      data.offset < lastScroll.current &&
-      data.offset < 1 / (data.pages - 1)
-    ) {
+    if (delta < -threshold && data.offset < 1 / (data.pages - 1)) {
       onSectionChange(0);
     }
   });

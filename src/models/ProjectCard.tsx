@@ -49,6 +49,19 @@ export const ProjectCard = ({
         />
       </mesh>
 
+      {/* Star icon for featured project */}
+      {project.isFeatured && (
+        <Text
+          position={[0.83, 1.11, 0]}
+          fontSize={0.17}
+          color='#FFEA00'
+          fontWeight='bold'
+          fillOpacity={1}
+        >
+          ★
+        </Text>
+      )}
+
       {/* Thumbnail image */}
       <Image
         scale={[1.8, 1.2]}
@@ -108,7 +121,7 @@ export const ProjectCard = ({
         anchorY={'top'}
         fontSize={0.08}
         position={[-0.6, -1.1, 0]}
-        onClick={() => window.open(project.url, '_blank')}
+        onClick={() => window.open(project.github, '_blank')}
         onPointerOver={() => {
           document.body.style.cursor = 'pointer';
         }}
