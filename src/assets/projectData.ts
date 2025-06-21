@@ -18,9 +18,9 @@ export const projects: ProjectType[] = [
     thumbnail: 'travel-memory.png',
     url: 'https://travel-memory.vercel.app',
     github: 'https://github.com/rockyueno0223/travel-memory',
-    skills: ['Next.js', 'Supabase', 'Typescript', 'Tailwind'],
+    skills: ['Next.js', 'Supabase', 'TypeScript', 'Tailwind'],
     description:
-      'An app to save photos and comments of travels by country using Supabase. Users can see of which countries they save memories in a world map.',
+      'A full-stack travel journal app built with Next.js and Supabase. Users can upload photos and comments of their trips, organized by country, and view them interactively on a world map.',
     isFeatured: true,
   },
   {
@@ -32,13 +32,13 @@ export const projects: ProjectType[] = [
     skills: [
       'React',
       'Tailwind',
-      'Typescript',
-      'shadcn/ui',
+      'TypeScript',
+      'ShadCN/UI',
       'Express',
       'MongoDB',
     ],
     description:
-      'This is a dashboard app of properties created with MERN stack. Owners can create, update and delete property posts. Residents can browse houses and get contact to owners. Users and properties data is stored in MongoDB.',
+      'A dashboard application for managing rental properties. Owners can post and edit property listings, while residents can browse and contact owners. Built with the MERN stack and styled using ShadCN UI.',
     isFeatured: true,
   },
   {
@@ -50,15 +50,14 @@ export const projects: ProjectType[] = [
     skills: [
       'React',
       'Tailwind',
-      'Typescript',
       'Flowbite',
       'Express',
       'MongoDB',
       'JWT',
-      'socket.io',
+      'Socket.IO',
     ],
     description:
-      'This is a realtime paint app. User can draw paintings with other users and save them to database.',
+      'A real-time collaborative drawing app built with the MERN stack. Users can draw together on a shared canvas, with updates synced live via socket.io. Includes user authentication using JWT and stores drawings in MongoDB.',
     isFeatured: true,
   },
   {
@@ -69,7 +68,7 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/rockyueno0223/post-now',
     skills: ['PHP', 'Laravel', 'Bootstrap', 'MySQL'],
     description:
-      'This is a kind of social media to post messages. Users can post and other users can see them. User can follow other users and posts of following users show on dashboard.',
+      'A Laravel-based social media platform where users can post messages, follow others, and view a personalized feed. Includes Bootstrap styling and data persistence with MySQL.',
     isFeatured: true,
   },
   {
@@ -86,7 +85,8 @@ export const projects: ProjectType[] = [
       'GSAP',
       'EmailJS',
     ],
-    description: 'This portfolio.',
+    description:
+      'My interactive 3D portfolio built with Three.js, Framer Motion, and GSAP. It showcases my work with smooth animations and scroll-based transitions for an immersive experience.',
     isFeatured: true,
   },
   {
@@ -96,7 +96,8 @@ export const projects: ProjectType[] = [
     url: 'https://rockyueno0223.github.io/stock-chart/',
     github: 'https://github.com/rockyueno0223/stock-chart',
     skills: ['Vue.js'],
-    description: 'Website to show stock market price.',
+    description:
+      'A lightweight Vue.js app that visualizes stock prices using interactive charts.',
     isFeatured: true,
   },
   {
@@ -106,7 +107,8 @@ export const projects: ProjectType[] = [
     url: 'https://rockyueno0223.github.io/trend-flicks/',
     github: 'https://github.com/rockyueno0223/trend-flicks',
     skills: ['React', 'Tailwind'],
-    description: 'Website to search trending movies and TV shows.',
+    description:
+      'A React app to browse trending movies and TV shows. Built using The Movie Database (TMDb) API with responsive design via Tailwind CSS.',
     isFeatured: false,
   },
   {
@@ -115,8 +117,9 @@ export const projects: ProjectType[] = [
     thumbnail: 'portfolio-v1.png',
     url: 'https://rockyueno0223.github.io/portfolio-v1/',
     github: 'https://github.com/rockyueno0223/portfolio-v1',
-    skills: ['React', 'Sass', 'Javascript'],
-    description: 'My first portfolio.',
+    skills: ['React', 'Sass', 'JavaScript'],
+    description:
+      'My first personal portfolio website built with React and Sass. A simple but functional showcase of early projects and skills.',
     isFeatured: false,
   },
   {
@@ -125,8 +128,9 @@ export const projects: ProjectType[] = [
     thumbnail: 'gsap-portfolio.png',
     url: 'https://rockyueno0223.github.io/gsap-portfolio/',
     github: 'https://github.com/rockyueno0223/gsap-portfolio',
-    skills: ['Javascript', 'GSAP'],
-    description: 'I created this website to practice GSAP.',
+    skills: ['JavaScript', 'GSAP'],
+    description:
+      'A simple animated website built to practice GSAP transitions.',
     isFeatured: false,
   },
   {
@@ -136,7 +140,7 @@ export const projects: ProjectType[] = [
     url: 'https://rockyueno0223.github.io/todo-board/',
     github: 'https://github.com/rockyueno0223/todo-board',
     skills: ['React'],
-    description: 'Simple todo app to create, edit, and delete todos.',
+    description: 'A basic React app to add, edit, and remove todos.',
     isFeatured: false,
   },
   {
@@ -145,8 +149,9 @@ export const projects: ProjectType[] = [
     thumbnail: 'weather-app.png',
     url: 'https://rockyueno0223.github.io/weather-app/',
     github: 'https://github.com/rockyueno0223/weather-app',
-    skills: ['HTML', 'CSS', 'Vue.js'],
-    description: 'An app to search and show temperature of the city.',
+    skills: ['HTML', 'CSS', 'JavaScript'],
+    description:
+      'A simple weather app built with vanilla JavaScript to display current temperature by city.',
     isFeatured: false,
   },
 ];
