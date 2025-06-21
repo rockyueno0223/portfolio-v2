@@ -52,7 +52,7 @@ export const ProjectCard = ({
       {/* Star icon for featured project */}
       {project.isFeatured && (
         <Text
-          position={[0.83, 1.11, 0]}
+          position={[0.83, 1.14, 0]}
           fontSize={0.17}
           color='#FFEA00'
           fontWeight='bold'
@@ -66,7 +66,7 @@ export const ProjectCard = ({
       <Image
         scale={[1.8, 1.2]}
         url={`images/projects/${project.thumbnail}`}
-        position-y={0.4}
+        position-y={0.45}
         toneMapped={false}
       />
 
@@ -77,9 +77,21 @@ export const ProjectCard = ({
         anchorX={'left'}
         anchorY={'top'}
         fontSize={0.12}
-        position={[-0.9, -0.3, 0]}
+        position={[-0.9, -0.22, 0]}
       >
         {project.title.toUpperCase()}
+      </Text>
+
+      {/* Skills */}
+      <Text
+        color='black'
+        maxWidth={1.8}
+        anchorX={'left'}
+        anchorY={'top'}
+        fontSize={0.05}
+        position={[-0.9, -0.41, 0]}
+      >
+        {project.skills.join(' / ')}
       </Text>
 
       {/* Description */}
@@ -89,7 +101,7 @@ export const ProjectCard = ({
         anchorX={'left'}
         anchorY={'top'}
         fontSize={0.07}
-        position={[-0.9, -0.5, 0]}
+        position={[-0.9, -0.52, 0]}
       >
         {project.description}
       </Text>
