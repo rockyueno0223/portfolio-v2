@@ -25,6 +25,25 @@ export const projects: ProjectType[] = [
   },
   {
     id: 2,
+    title: 'VanCastro Driving School',
+    thumbnail: 'vancastro.png',
+    url: 'https://vancastro-driving-school-v1.vercel.app/',
+    github:
+      'https://github.com/Cornerstone-CICCC/program-project-musculars-final',
+    skills: [
+      'Next.js',
+      'Express',
+      'QuickBooks',
+      'Intuit OAuth',
+      'Prisma',
+      'PostgreSQL',
+    ],
+    description:
+      'A driving school management system built for a local client. Features include lesson scheduling, student management, and automated invoicing through QuickBooks integration with OAuth login.',
+    isFeatured: true,
+  },
+  {
+    id: 3,
     title: 'Property Management',
     thumbnail: 'property-management.png',
     url: 'https://property-management-frontend.onrender.com',
@@ -42,7 +61,7 @@ export const projects: ProjectType[] = [
     isFeatured: true,
   },
   {
-    id: 3,
+    id: 4,
     title: 'Paint Party',
     thumbnail: 'paint-party.png',
     url: 'https://paint-party-frontend.onrender.com',
@@ -61,7 +80,7 @@ export const projects: ProjectType[] = [
     isFeatured: true,
   },
   {
-    id: 4,
+    id: 5,
     title: 'Post Now!',
     thumbnail: 'post-now.png',
     url: 'https://post-now-production.up.railway.app',
@@ -72,7 +91,7 @@ export const projects: ProjectType[] = [
     isFeatured: true,
   },
   {
-    id: 5,
+    id: 6,
     title: 'Portfolio-v2',
     thumbnail: 'portfolio-v2.png',
     url: 'https://rocky-portfolio-v2.vercel.app/',
@@ -90,7 +109,7 @@ export const projects: ProjectType[] = [
     isFeatured: true,
   },
   {
-    id: 6,
+    id: 7,
     title: 'Stock Chart',
     thumbnail: 'stock-chart.png',
     url: 'https://rockyueno0223.github.io/stock-chart/',
@@ -101,7 +120,7 @@ export const projects: ProjectType[] = [
     isFeatured: true,
   },
   {
-    id: 7,
+    id: 8,
     title: 'Trend Flicks',
     thumbnail: 'trend-flicks.png',
     url: 'https://rockyueno0223.github.io/trend-flicks/',
@@ -112,7 +131,7 @@ export const projects: ProjectType[] = [
     isFeatured: false,
   },
   {
-    id: 8,
+    id: 9,
     title: 'Portfolio-v1',
     thumbnail: 'portfolio-v1.png',
     url: 'https://rockyueno0223.github.io/portfolio-v1/',
@@ -123,7 +142,7 @@ export const projects: ProjectType[] = [
     isFeatured: false,
   },
   {
-    id: 9,
+    id: 10,
     title: 'GSAP Portfolio',
     thumbnail: 'gsap-portfolio.png',
     url: 'https://rockyueno0223.github.io/gsap-portfolio/',
@@ -134,7 +153,7 @@ export const projects: ProjectType[] = [
     isFeatured: false,
   },
   {
-    id: 10,
+    id: 11,
     title: 'Todo Board',
     thumbnail: 'todo-board.png',
     url: 'https://rockyueno0223.github.io/todo-board/',
@@ -144,7 +163,7 @@ export const projects: ProjectType[] = [
     isFeatured: false,
   },
   {
-    id: 11,
+    id: 12,
     title: 'Weather App',
     thumbnail: 'weather-app.png',
     url: 'https://rockyueno0223.github.io/weather-app/',
